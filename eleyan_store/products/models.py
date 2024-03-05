@@ -3,6 +3,15 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils.translation import gettext_lazy as _
 
+# Assuming you have defined COMMUNICATION_METHOD_CHOICES somewhere
+
+COMMUNICATION_METHOD_CHOICES = [
+    ('whatsapp_message', _('WhatsApp Message')),
+    ('whatsapp_call', _('WhatsApp Call')),
+    ('regular_call', _('Regular Call')),
+    ('regular_message', _('Regular Message')),
+]
+
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
@@ -44,13 +53,6 @@ class Order(models.Model):
         ('pending', _('Pending')),
         ('confirmed', _('Confirmed')),
         ('canceled', _('Canceled')),
-    ]
-
-    COMMUNICATION_METHOD_CHOICES = [
-        ('whatsapp_message', _('WhatsApp Message')),
-        ('whatsapp_call', _('WhatsApp Call')),
-        ('regular_call', _('Regular Call')),
-        ('regular_message', _('Regular Message')),
     ]
 
     user = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
