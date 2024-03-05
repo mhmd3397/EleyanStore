@@ -23,7 +23,6 @@ urlpatterns = [
     path('', include('products.urls')),
 ]
 urlpatterns += i18n_patterns(
-    path('admin/', admin.site.urls),
     # Replace 'products' with the actual app name
     path('products/', include('products.urls')),
 )
