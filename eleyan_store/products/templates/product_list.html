@@ -1,0 +1,19 @@
+<!-- product_list.html -->
+{% extends 'base.html' %}
+
+{% block title %}Products - Eleyan Store{% endblock %}
+
+{% block content %}
+<h2>Products</h2>
+<!-- Display a list of products with details -->
+{% for product in products %}
+<div>
+    <h3>{{ product.name }}</h3>
+    <p>{{ product.description }}</p>
+    <p>Price: ${{ product.price }}</p>
+    <!-- Add a button to view product details or add to cart -->
+    <a href="{% url 'view_product' product.id %}">View Product</a>
+    <button>Add to Cart</button>
+</div>
+{% endfor %}
+{% endblock %}

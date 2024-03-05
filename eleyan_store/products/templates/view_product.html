@@ -1,0 +1,13 @@
+<!-- view_product.html -->
+{% extends 'base.html' %}
+
+{% block title %}{{ product.name }} - Eleyan Store{% endblock %}
+
+{% block content %}
+<h2>{{ product.name }}</h2>
+<!-- Display detailed information about the selected product -->
+<p>{{ product.description }}</p>
+<p>Price: ${{ product.price }}</p>
+<!-- Add product characteristics, quantity, etc. -->
+<button>Add to Cart</button>
+{% endblock %}

@@ -1,0 +1,23 @@
+<!-- edit_address.html -->
+{% extends 'base.html' %}
+
+{% block title %}Edit Address - Eleyan Store{% endblock %}
+
+{% block content %}
+<h2>Edit Address</h2>
+<form method="post">
+    {% csrf_token %}
+    <!-- Display current address details and allow modification -->
+    <label for="address_state">State:</label>
+    <input type="text" name="address_state" value="{{ address.address_state }}" required>
+    <label for="address_city">City:</label>
+    <input type="text" name="address_city" value="{{ address.address_city }}" required>
+    <label for="address_village">Village:</label>
+    <input type="text" name="address_village" value="{{ address.address_village }}" required>
+    <label for="address_street">Street:</label>
+    <input type="text" name="address_street" value="{{ address.address_street }}" required>
+    <label for="is_default">Set as Default:</label>
+    <input type="checkbox" name="is_default" {% if address.is_default %}checked{% endif %}>
+    <button type="submit">Save Changes</button>
+</form>
+{% endblock %}
