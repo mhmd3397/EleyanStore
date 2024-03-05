@@ -3,8 +3,6 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils.translation import gettext_lazy as _
 
-# Assuming you have defined COMMUNICATION_METHOD_CHOICES somewhere
-
 COMMUNICATION_METHOD_CHOICES = [
     ('whatsapp_message', _('WhatsApp Message')),
     ('whatsapp_call', _('WhatsApp Call')),
@@ -26,10 +24,16 @@ class UserProfile(models.Model):
 class Category(models.Model):
     name = models.CharField(_('Category Name'), max_length=100)
 
+    def __str__(self):
+        return self.name
+
 
 class Characteristic(models.Model):
     name = models.CharField(_('Characteristic Name'), max_length=100)
     # Add more fields if needed
+
+    def __str__(self):
+        return self.name
 
 
 class Product(models.Model):
@@ -45,7 +49,24 @@ class Product(models.Model):
         _('Is Quantity Limited'), default=False)
     is_characteristic_required = models.BooleanField(
         _('Is Characteristic Required'), default=False)
+    image = models.ImageField(
+        _('Product Image'), upload_to='product_images/', null=True, blank=True)
     # Add more fields as needed for product characteristics, color, pattern, etc.
+
+    def __str__(self):
+        return self.name
+
+
+class UserAddress(models.Model):
+    user = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
+    address_state = models.CharField(_('State'), max_length=100)
+    address_city = models.CharField(_('City'), max_length=100)
+    address_village = models.CharField(_('Village'), max_length=100)
+    address_street = models.CharField(_('Street'), max_length=100)
+    is_default = models.BooleanField(_('Default Address'), default=False)
+
+    def __str__(self):
+        return f"{self.address_state}, {self.address_city}, {self.address_street}"
 
 
 class Order(models.Model):
@@ -58,10 +79,8 @@ class Order(models.Model):
     user = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
     products = models.ManyToManyField(
         Product, through='OrderItem', verbose_name=_('Products'))
-    address_state = models.CharField(_('State'), max_length=100)
-    address_city = models.CharField(_('City'), max_length=100)
-    address_village = models.CharField(_('Village'), max_length=100)
-    address_street = models.CharField(_('Street'), max_length=100)
+    addresses = models.ManyToManyField(
+        UserAddress, verbose_name=_('Addresses'))
     notes = models.TextField(_('Notes'), blank=True)
     alternative_number = models.CharField(
         _('Alternative Number'), max_length=15, blank=True)
@@ -69,6 +88,11 @@ class Order(models.Model):
         'CommunicationMethod', verbose_name=_('Communication Methods'))
     status = models.CharField(
         _('Status'), max_length=20, choices=STATUS_CHOICES, default='pending')
+    total = models.DecimalField(
+        _('Order Total'), max_digits=10, decimal_places=2, null=True, blank=True)
+
+    def __str__(self):
+        return f"Order #{self.pk} - {self.user.user.username}"
 
 
 class OrderItem(models.Model):
@@ -78,8 +102,25 @@ class OrderItem(models.Model):
     notes = models.TextField(_('Notes'), blank=True)
     # Add more fields if needed
 
+    def __str__(self):
+        return f"{self.quantity} x {self.product.name}"
+
+
+class ProductReview(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    user = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
+    rating = models.PositiveIntegerField(_('Rating'), default=5)
+    review_text = models.TextField(_('Review Text'))
+    created_at = models.DateTimeField(_('Created At'), auto_now_add=True)
+
+    def __str__(self):
+        return f"Review by {self.user.user.username} for {self.product.name}"
+
 
 class CommunicationMethod(models.Model):
     name = models.CharField(_('Method Name'), max_length=100,
                             choices=COMMUNICATION_METHOD_CHOICES)
     # Add more fields if needed
+
+    def __str__(self):
+        return self.name
