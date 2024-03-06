@@ -1,6 +1,4 @@
 # eleyan_store/settings.py
-from django.utils.translation import gettext_lazy as _
-import os
 from pathlib import Path
 from decouple import config, Csv
 
@@ -8,16 +6,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 config = config()
 
-DEBUG = True
+DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='', cast=Csv())
 
-SECRET_KEY = config('DJANGO_SECRET_KEY', default='your_secret_key')
+SECRET_KEY = config('DJANGO_SECRET_KEY', default='your_secret_key_here')
 
 # Language and timezone settings
 LANGUAGES = [
-    ('ar', _('Arabic')),
-    ('en', _('English')),
-    ('he', _('Hebrew')),
+    ('ar', 'Arabic'),
+    ('en', 'English'),
+    ('he', 'Hebrew'),
 ]
 
 LANGUAGE_CODE = 'ar'
@@ -28,14 +26,13 @@ USE_L10N = True
 # Installed apps
 INSTALLED_APPS = [
     'products',
-    'users',  # Add the 'users' app here
+    'users',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Add other apps as needed
 ]
 
 # Middleware
@@ -47,7 +44,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.locale.LocaleMiddleware',  # Add this line
+    'django.middleware.locale.LocaleMiddleware',
 ]
 
 # Template settings
@@ -67,7 +64,7 @@ TEMPLATES = [
     },
 ]
 
-# Add the following lines for static and media files
+# Static and media files
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static'
 
@@ -75,11 +72,9 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 # Internationalization
-LOCALE_PATHS = [
-    BASE_DIR / 'locale',  # Add this line
-]
+LOCALE_PATHS = [BASE_DIR / 'locale']
 
-# Add the following lines for authentication
+# Authentication
 AUTH_USER_MODEL = 'users.UserProfile'
 LOGIN_URL = 'user_login'
 LOGIN_REDIRECT_URL = 'home'
