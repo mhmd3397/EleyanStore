@@ -12,7 +12,8 @@ COMMUNICATION_METHOD_CHOICES = [
 
 
 class UserProfile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.OneToOneField(
+        User, on_delete=models.CASCADE, related_name='profile')
     phone_number = models.CharField(
         _('Phone Number'), max_length=15, unique=True)
     email_confirmed = models.BooleanField(_('Email Confirmed'), default=False)
@@ -30,7 +31,6 @@ class Category(models.Model):
 
 class Characteristic(models.Model):
     name = models.CharField(_('Characteristic Name'), max_length=100)
-    # Add more fields if needed
 
     def __str__(self):
         return self.name
@@ -51,7 +51,6 @@ class Product(models.Model):
         _('Is Characteristic Required'), default=False)
     image = models.ImageField(
         _('Product Image'), upload_to='product_images/', null=True, blank=True)
-    # Add more fields as needed for product characteristics, color, pattern, etc.
 
     def __str__(self):
         return self.name
@@ -100,7 +99,6 @@ class OrderItem(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(_('Quantity'))
     notes = models.TextField(_('Notes'), blank=True)
-    # Add more fields if needed
 
     def __str__(self):
         return f"{self.quantity} x {self.product.name}"
@@ -120,7 +118,6 @@ class ProductReview(models.Model):
 class CommunicationMethod(models.Model):
     name = models.CharField(_('Method Name'), max_length=100,
                             choices=COMMUNICATION_METHOD_CHOICES)
-    # Add more fields if needed
 
     def __str__(self):
         return self.name
