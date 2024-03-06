@@ -1,14 +1,18 @@
 # eleyan_store/settings.py
+from django.utils.translation import gettext_lazy as _
 import os
 from pathlib import Path
-from decouple import config
-
-# Add the following import
-from django.utils.translation import gettext_lazy as _
+from decouple import config, Csv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# ...
+config = config()
+
+DEBUG = config('DEBUG', default=False, cast=bool)
+
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='', cast=Csv())
+
+SECRET_KEY = config('DJANGO_SECRET_KEY', default='your_secret_key')
 
 # Language and timezone settings
 LANGUAGES = [
@@ -21,8 +25,6 @@ LANGUAGE_CODE = 'ar'
 USE_TZ = True
 USE_I18N = True
 USE_L10N = True
-
-# ...
 
 # Installed apps
 INSTALLED_APPS = [
@@ -37,8 +39,6 @@ INSTALLED_APPS = [
     # Add other apps as needed
 ]
 
-# ...
-
 # Middleware
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -50,8 +50,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.locale.LocaleMiddleware',  # Add this line
 ]
-
-# ...
 
 # Template settings
 TEMPLATES = [
@@ -70,8 +68,6 @@ TEMPLATES = [
     },
 ]
 
-# ...
-
 # Add the following lines for static and media files
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static'
@@ -79,23 +75,12 @@ STATIC_ROOT = BASE_DIR / 'static'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
-# ...
-
 # Internationalization
 LOCALE_PATHS = [
     BASE_DIR / 'locale',  # Add this line
 ]
 
-# ...
-
 # Add the following lines for authentication
 AUTH_USER_MODEL = 'users.UserProfile'
 LOGIN_URL = 'user_login'
 LOGIN_REDIRECT_URL = 'home'
-
-# ...
-
-# Decouple configuration
-STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')
-
-# ...
