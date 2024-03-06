@@ -8,8 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 config = config()
 
-DEBUG = config('DEBUG', default=False, cast=bool)
-
+DEBUG = True
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='', cast=Csv())
 
 SECRET_KEY = config('DJANGO_SECRET_KEY', default='your_secret_key')
