@@ -1,17 +1,22 @@
 # products/urls.py
 from django.urls import path
-from .views import home, product_list, product_detail, add_to_cart, remove_from_cart, view_cart, checkout, order_confirmation, profile, edit_profile, product_management, order_management, user_management, user_login, user_logout, user_register
+from .views import (
+    home, product_list, product_detail, add_to_cart,
+    remove_from_cart, view_cart, checkout, order_confirmation,
+    profile, edit_profile, product_management, order_management,
+    user_management, user_login, user_logout, user_register
+)
 
 app_name = 'products'
 
 urlpatterns = [
-    path('product-list/', product_list, name='product_list'),
     path('', home, name='home'),
+    path('product-list/', product_list, name='product_list'),
     path('product/<int:product_id>/', product_detail, name='product_detail'),
     path('add-to-cart/<int:product_id>/', add_to_cart, name='add_to_cart'),
     path('remove-from-cart/<int:product_id>/',
          remove_from_cart, name='remove_from_cart'),
-    path('cart/', view_cart, name='cart'),
+    path('cart/', view_cart, name='view_cart'),  # Renamed to 'view_cart'
     path('checkout/', checkout, name='checkout'),
     path('order-confirmation/', order_confirmation, name='order_confirmation'),
     path('profile/', profile, name='profile'),

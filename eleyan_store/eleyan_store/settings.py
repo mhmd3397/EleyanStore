@@ -1,22 +1,45 @@
+# eleyan_store/settings.py
 import os
 from pathlib import Path
+from decouple import config
+
+# Add the following import
+from django.utils.translation import gettext_lazy as _
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your_secret_key')
-DEBUG = True
-ALLOWED_HOSTS = []
+# ...
 
+# Language and timezone settings
+LANGUAGES = [
+    ('ar', _('Arabic')),
+    ('en', _('English')),
+    ('he', _('Hebrew')),
+]
+
+LANGUAGE_CODE = 'ar'
+USE_TZ = True
+USE_I18N = True
+USE_L10N = True
+
+# ...
+
+# Installed apps
 INSTALLED_APPS = [
     'products',
+    'users',  # Add the 'users' app here
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Add other apps as needed
 ]
 
+# ...
+
+# Middleware
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -25,10 +48,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.locale.LocaleMiddleware',  # Add this line
 ]
 
-ROOT_URLCONF = 'eleyan_store.urls'
+# ...
 
+# Template settings
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -45,73 +70,32 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'eleyan_store.wsgi.application'
+# ...
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-LANGUAGE_CODE = 'en-us'
-TIME_ZONE = 'UTC'
-USE_I18N = True
-USE_L10N = True
-USE_TZ = True
-
+# Add the following lines for static and media files
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
-# Security Settings
-SECURE_BROWSER_XSS_FILTER = True
-SECURE_CONTENT_TYPE_NOSNIFF = True
-SECURE_HSTS_SECONDS = 31536000  # 1 year
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_REDIRECT_EXEMPT = []  # Add any exempt URL patterns
-SECURE_SSL_REDIRECT = True
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
-X_FRAME_OPTIONS = 'DENY'
-
-# Security middleware
-MIDDLEWARE += [
-    'django.middleware.security.SecurityMiddleware',
-]
-
-# Security headers
-SECURE_HEADERS = {
-    'Content-Security-Policy': "default-src 'self'",
-}
-
-# Logging (configure according to your needs)
-# settings.py
-
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'logs' / 'django.log',  # Specify the correct path
-        },
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['file'],
-            'level': 'INFO',
-            'propagate': True,
-        },
-    },
-}
-
-
-# Caching (configure according to your needs)
 # ...
 
-# Email configuration (configure according to your needs)
+# Internationalization
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',  # Add this line
+]
+
+# ...
+
+# Add the following lines for authentication
+AUTH_USER_MODEL = 'users.UserProfile'
+LOGIN_URL = 'user_login'
+LOGIN_REDIRECT_URL = 'home'
+
+# ...
+
+# Decouple configuration
+STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')
+
 # ...
