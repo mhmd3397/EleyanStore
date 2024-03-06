@@ -1,21 +1,20 @@
-<!-- base.html -->
+<!-- products/templates/base.html -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Eleyan Store{% endblock %}</title>
+    <title>Eleyan Store</title>
 </head>
 
 <body>
     <header>
-        <!-- Add your header content here -->
         <h1>Eleyan Store</h1>
         <nav>
             <ul>
-                <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="{% url 'products:product_list' %}">Products</a></li>
+                <li><a href="{% url 'products:home' %}">Home</a></li>
+                <li><a href="{% url 'products:product_list' %}">Product List</a></li>
                 <!-- Add more navigation links as needed -->
             </ul>
         </nav>
@@ -26,7 +25,7 @@
     </main>
 
     <footer>
-        <!-- Add your footer content here -->
+        <!-- Add footer content if needed -->
     </footer>
 </body>
 

@@ -1,0 +1,670 @@
+Watching for file changes with StatReloader
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 143
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 143
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 143
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 143
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 73185
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 73185
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 73155
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Eleyan_Store\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 73157
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 301 0
+code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00#\x00\x00Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x12\x00\x00\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('âæµ\x10Æ¥4H')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('5\x10Ì\x17¾©@ÒuÈ>»\x80P')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xad\x1a\x1a\x00\x00\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('K')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('|6ïðEÓ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ô\x91L{l\x06ÍÊöY5E\xad\x96]')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('m\x19Ú5Sfi¶¥\x1bv\x90\x0f\x86\x0fÔ_A©B×P\x13ï\xadÿKG\x1b\x13*s\xadòø£sX¡ÕÐdÔ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Íêê\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('3Bî\x1b\x81ÿóª\x02/½¢]¤x³ÀqÞ\x13[Ë^3§×')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ÌNøÀÑL\\\x19\x0e\x9eDi\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('(Qe\x9b\x18½Ëiñ»\x96<\x8ep')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Zx#¹\x96v«g\x00\x9f:³Õ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('~´Úò\x0f')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+code 400, message Bad request version ('4<ë\x12ù\x10\x15')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03N"2wõ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03nQ¨Ç5efô\x99"\x8fÆ|éAL^q\x00g\x9fòEðì÷`@J,K\x85 ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('1\x93\x84oÛ.ò5')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x86')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('s4\x11Õ\x162\xad\\^a=ô1\x06\x17p\x18Ô~q\x7fKü3\x95')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02:\x01\x00\x026\x03\x03\xadË\x83SäÉøn')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Ý¶ürÀ6Ë!\x8bÔ3\x80¼/8H¸è2oâ9zR\x05\x84GÂ/~Ad\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('æ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("\x8f÷\x9eH\x01Ù\x81\x04ÀE3ÁÄ\x07U÷¿7\x15¨_^'©\x19p!wÓ¸F&\x00\x1b\x00\x03\x02\x00\x02\x00")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Ó*\x81')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version (',\x8cc\x84\x10\x14Ý¾\x19Úêp\x9cÝê(5\x03êó\x0f')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("R\x8c\x90'")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03J"\x11>ËM{\x07ÜÈ.N¾\']\x80¦¬_\x12\x90dÑdEÍð¦®\x027')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xadÚÚ\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x033\x84\x03\x10\x00Ç¬i\x13\x17]\x0fË<Eÿy\x96Ü¦AuóK ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('kQ\x02\x9aD6ë\x8b£H¼\x17\x8e\xad¶\x0f_U¸g\x91æ<N*Ññ$J\x10þY\x8eÁ°\\®\x19-')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x9b')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ù@õZ\x89(\x80\x02lB\x82\x81\x9fo\x7fß\x9cÕ·³è%E\x88\x08`}mU\x97\x94Î')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ÐZÇzæ\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¸\x9boÜ,Á\x06·\x9cP\x9f\x02\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('0\\ÆÅ8.zà8\x16e¬y)Qª\x8d')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x01Üº¬¬`eB`dP*¾Þ_t\x00\x17\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x19ÕÛ4¾jÐ×Çº')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xad**\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93êê\x00\x00\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('2')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¸DIxÔ\x87Ä\x99m?êíSÓÉ\x8e§&\x07Go,Ù\x95èM')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¹þ\x07\x0eÅ\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00Di\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Íªª\x00\x00ÿ\x01\x00\x01\x00\x00+\x00\x07\x06zz\x03\x04\x03\x03\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("¤\x84S¬2<Ò#n%¼\x18\x82!z1\x94\x14\x837l'\x9dg\x91\x04\xadÛæ\x02@`\x00#\x00\x00\x00")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('îVù0\x00ú±\x9e\x8c1\x03¥Â\x86\x18óõ1Giq\x06aÄ\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¿\x99ûmM\x87r\x89\x15hÔ\x9bø\x0fI\x9c')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('9Q¦´¸D9XLõ$È¤XKöÃUÉÿ¯GÙÆWV&úÿ],\x9cíH¾')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¦ó\x11Ïèl§*T$\x895\x03x\x92:Ôû¾\x02<Þ\x93ldào\x9f³Î\x8fm\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("xä\x80Ë\x0f8G\x00°¼8>\x11.ôÞ,\x00´ófÃ\x84-6Ó_Ö\x9cQÄ¸á}ËlèÇÑÂ\x12_)\x8d\x98\x17P\x8fWÞï©á8w¨úé´[\x88\x14·f'Ã\x91")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í\x8a\x8a\x00\x00\x00-\x00\x02\x01\x01\x00+\x00\x07\x06')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('aP\x92')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ñ>Ö"\x9d¹`çóä0è\x9b÷1¢}ó¬o¢\x94\x02\x98«\'\x1atÍ¨ÌHa\x1b4Nõ/çóÉªÊ\x16ÙfÙºJÑsÚDi\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06JJ\x03\x04\x03\x03\x00\x17\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('*£')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¹¢¿gR;\xadx')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x80\x9fU\x92w\x190y9\x87õ\x0eå·\x8cÖ\x96¬¤\x9a÷!µ9Ö!K0\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Eq\x8bÁwÛÞQ=z¬,ØÃhþû\x0e\x02\x0e©Ø\x91CÄ©µ°n\x88Ãc\x82åS2*ü(Hªg')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02:\x01\x00\x026\x03\x03òYtTõ|¨')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\xadÄ]8\x0e¹2\x80\x88.\x8e1¶')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('=¿@Î]²vD\x0fï\x1bðè\x0e,£*')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ºxHùdÆuDPß\x8aD½')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x81þº\x90)V>Á\x9b·sûæ\x9eÖÍ\x99ý)æº:âP\x87\x1aÌË\x8f¨\x13\x00Di\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x82M\x7f8')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01ÍÚÚ\x00\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00Ú\x00\x00\x01\x00\x01\x9a\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('½¬\x9bf\x02Rv\x10VDÌ\x04(')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('@¬v\x9e,àå\x8cD>°)\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00+\x00\x07\x06')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Ö#àý¿\x80¸³cÇ\x14G×l¶Åvv\x1a¢Wå\x9b9\x06Y)]s}>#\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('L\x8cú\x10^\x05')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('g6Áöæ\x1aË{\x83ùt3p/o\x88Ìdg')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ñ7"ÁE\x9fnz')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00ÿ\x01\x00\x01\x00\x00#\x00\x00\x00\x17\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ì\x99')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Íªª\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("ïÇ]öL\x00\x00&À,À+À0À/À$À#À(À'À")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+- Broken pipe from ('127.0.0.1', 61388)
+code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x0fÄòæj\x93\x9d\x15\x00#\x00\x00\x00\x12\x00\x00\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\xad×VÿP_ÚWñ\x9f\x08üô%¶Ï¹ÿ[v¬0AÕ\x96ö\x11')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("\x9b\x954c\x91b°Boä\x89¨Â\x96Y.b'Gç\x83\x83\x8aÊW^nÙgÿ\x01\x00\x01\x00\x00#\x00\x00\x00")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("Æ´\x14öhh0gt#øh\x14P*H¹Kõ=3k®\x10\x1aêÈj0úz\x1b_r\x82Q('üÊ")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Æ&\x8eÙgÒLzbßåîX)N=\x16ñ\x1bGiÓçßüÿÆÇ\x13')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+code 400, message Bad request version ('~\x10â')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02:\x01\x00\x026\x03\x03')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x12\x00\x00Di\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00Di\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('â%3&øó2\x9f3¦åF')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03m\x05ÐU¨7')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03×*\x06ta\x7f\x18âH\x0eÞiÒõ\x8d&\x86*44')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('£ÍÝ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('&à')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Ð\x98g\x8cìV\x9b×\x97¶rãS9\x04ñÐù\x9fc(*\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í\x9a\x9a\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('©aÏ`w¬Fÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('±¾Õ\x8aù\x9f[\x88?ý±t\x8dÆk¾^~î×\x19\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x93º')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xad')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('v`Ø5o\x12Å\x0e\x0f¿D9óèA|ù´3\x0fx\x10n¹E\x9f\x92æ\\©Hñ¹\x10\x15´fÙ\x15vôªÓÏtWî\x7f³Y\x16\x9d\x07K/BØ=2\x81`Y\x00b*\x8emôÅUZ\x91,#\x8bõÚÙ\x94\x89ïÒY÷ê\x9a¼')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03GãhÐ³vLu^Ç~\x9f\x92ìB!j\x8aQÿ=vÔ\x92\x08"Å\x06iØò<')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03ø]')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('e\x012oMß\x94ä\x07¦\x99+\x8csSë')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03èÄÇ\x06:/\x03')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Ó\x07\\\x89.9¬Úïs\x10ùU\x9b\x8f/T-R¶O=\x1alf\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Íêê\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06ZZ\x03\x04\x03\x03\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x98xÑÐB\x7f²jZ\x96è>ø¾\\n\x84ÝU1ÝmA\x8cl\x1b\x07ç#Wq·ïw\x0eÀÞT\x90f\x94\x07ÁÏ¸è²ì\\,+\x98\x17:=¾')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¬\x9bçCÏí')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03Ø>°\x8fFÿÏ(Ý!\x13\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xadZZ\x00\x00\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í\x9a\x9a\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('óH¸XY\x023\x17\x96ÿð»ÞP±ULüËt\x93\x0fÑý\x81Ø«þ\x9fÐ\x11«\x7fo"Üãèî¬\x92Ä\x10<Ì}¶\x1b¯C')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('D\x13ÅÙ«r)töM7·c\x0eð\x8cåx\x8b\x81ÞeÙC<3Ó\x00q\x07\xad\x12\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x87i')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+C:\Eleyan_Store\eleyan_store\eleyan_store\settings.py changed, reloading.
+Watching for file changes with StatReloader
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06**\x03\x04\x03\x03\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("ÄÿÌý\x02b7J\xadNÞ'²,t\x8e\x81#Èüåu«\x06wù©\x89`¹5\x0e\x00ðzYáI\x89¥;6aKn\x17«eª8¼toq³Ö\x95dáÅv2Z;WkJ¿ÖNC&e·\x08ÐT\x89kú)\x06\x90\x83\x88")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í**\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¾\x81Í')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03u]\x9e^ÒÇÇï1ÀN_ÞÙ\x1bc8Ð¥¹DQÙB_¾zæÄ6»,')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('j\x13&/J')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03)µ\x07LYNÎñ~ìvÆ\x9a\x04ey)ÑÐå\x18"')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00Di\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version (')\x03\\çë´x´³j¹')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ("\x16\x03\x01\x02:\x01\x00\x026\x03\x03Z\x8aÏdX\x17rTû'")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00Di\x00\x05\x00\x03\x02h2\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('xÏ3«.\x06ÑÙ°]\x18z\x9bÈ)ÈGëU,bÙÐ\x8f>´Ë*%')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x03fj\x83Ö\x9fv\x8dËÃ\x99<\x89\x9e\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x030G[«\x94\x9bä\x03Ú\x98\x1a\x8eS¯·\x8dò\\çJU¼\x95SURÆ_ðÖ\x9e\x9a')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xad\x8a\x8a\x00\x00\x00\x17\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x94¬Í7')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('´øôE¹\x8cÞä\x91¤$Þ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00+\x00\x07\x06JJ\x03\x04\x03\x03\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x01fÿ\x91.O1\x8e²\x9c\x1b·\x05\x0e\x88L\x0f¯\x14\x17')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02:\x01\x00\x026\x03\x03z»ñ²\x9c')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("\x87VH\x9cì!þvDëO;Óv\xad\x9aÛ®5ÝÅ''Ðö\x95/ÝCü\x94\x16\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x17\x00\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00#\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02:\x01\x00\x026\x03\x03\x05Go)\x84\x01Lqéf>-Ãà')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('6âÔY?³Ñ\x9f')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ø´\x11\x0fþ$\x19^%I\x03¼z\x18\x8e3')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('mÝ^@n\x01?1')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('õZ\x01UL§Ü&ÄV¾\x9b\x7fÿ\x15ûµî¯©Cÿg7§\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('öÐû9©~\x80,¹ì7\x15E\x971t!«NC\x8d\x93É')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ýéæ\x94èÏ¯;ÏQrK\x91\x9c\x93ñ\x9b\x80ES²\x96¶xu\x05\x86í'Ù\x9a½")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x08ÕÆvLU÷;oD\x17\x97iÁ\x8aHm\x8d1\x08¡l#âòîz»(Z8\x86\x16\\\x97\x7fÍ<©ô0õ\x01Í\x0e©àìJDU¸eÃ=¹¸NøÝ\x19N\\ó\x8bn{¶±Oóú\x81')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Û\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06ºº\x03\x04\x03\x03\x00\x12\x00\x00\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version (']{±Eª}')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x01\x1a\x00\x00\x01\x00\x01')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('_ø\x92\x18N\x99\x8cuÄ£õ½~b%V\x10a¢\x94Û\x96]A\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x03\x00«\x01\x00\x00§\x03\x03eçÉ\x8e[Ìã>:+\x0f_v"{ÃQÈÓ\x826æT]v^DÖÆ¥P-\x00\x00&À,À+À0À/À$À#À(À\'À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+- Broken pipe from ('127.0.0.1', 61918)
+code 400, message Bad request version ('\x19íV=\x14\x83¡')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x17\x00\x00\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xadJJ\x00\x00\x00#\x00\x00\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('µE\x15*J')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('=\x82&Ï¬vÕk¬¶ÿh_\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('{\x8dÊ\x02LX¡Ã¡³\x90Jã\x03\x03ß¾\x97')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03LÌhñ%Æ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Uµt0~\x0fõn\x8d95W\x7f\x05ÛF\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('%§øC½Âá¬Z')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('®ïÃ\x88\x9a')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("ô\x84R»6ÀÆ\x87ª6J'¨¢R#½e*U×W8ÊØØ)\x9dFÑ1ùk\x10D¯½÷ùÙ0")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x04\x90~')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Ï{y')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x8cÝjXæßí¸\x00®iq\x9bi\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x031|N¥ViT¬tù\x9aë¤ªÓ÷²×«Úßw\x97\x03mÀ¥\x81³p\x8cn')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version (',ÑíS\x81;íz»n\x00+\x00\x07\x06zz\x03\x04\x03\x03\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03\x93ÏT\x00D¤\x92')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x86\x18³l++å\x83ìUÃ\x90é\x89À÷Y9fI\x18?\\ÎHw\x81%p7ØË')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('CmUe¢\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /admin/login/?next=/admin/ HTTP/1.1" 301 0
+code 400, message Bad request version ('¸äJÃ©Q')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('®æÖaWG\x00§\x19\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('bzçù~¯½v\x84\x11õu\x120\x0fÇ\x95!~\x04\x90N')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Mr%×')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Ðí\x00²Î±\x9c&Ã9àKO\x8cv®0çâZ1b\x11\x07\x8cY\x95\x06®¥')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /product-list/ HTTP/1.1" 301 0
+code 400, message Bad request version ('\x8c')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xad\x9a\x9a\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Í\xadylô\x14ñ~^\x98\x12Ê\x03\x87;-')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("ø\x99XÚ\x01\x1b'\x00+\x00\x07\x06::\x03\x04\x03\x03\x00")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03é\x88\x10<:!\x9açö')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('=\x00ð´\x81æø=µVn\x1a\x14')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x8b\x13óJ\x98')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('©\x11U\x00Ì\x02¼\x95ç\x99\x17\\WYÅÿ¦ü\x91x~DàÂR\x89Þ»Hµå#\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í\x1a\x1a\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00Ð\x02¾/f¶ò"\x9cã\x18¢ÑNJ\x07¼F½|è»\x9a\x00P$ùg©&èµ`»ä\xad²cK®Ï\x9d*N2ÊÀ\x9d\x8c\x8a\x86\x03´')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x17\x0fãJä``£\x86²X')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Gß*?Ööæ')
+You're accessing the development server over HTTPS, but it only supports HTTP.

@@ -1,0 +1,18 @@
+<!-- products/templates/product_detail.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center mt-5 mb-4">{{ product.name }}</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <p>{{ product.description }}</p>
+            <p><strong>Price:</strong> ${{ product.price }}</p>
+            <!-- Add more details about the product as needed -->
+        </div>
+    </div>
+</div>
+{% endblock %}
