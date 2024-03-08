@@ -3,7 +3,6 @@ from django.urls import reverse_lazy
 from django.views.generic.edit import CreateView
 from .models import Order, OrderItem
 from .forms import OrderCreateForm
-from cart.cart import Cart
 
 
 class OrderCreateView(CreateView):
