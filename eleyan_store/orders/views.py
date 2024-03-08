@@ -21,10 +21,10 @@ def order_create(request):
             OrderItem.objects.create(
                 order=order, product=item['product'], price=item['price'], quantity=item['quantity'])
         cart.clear()
-        return render(request, 'orders/order/created.html', {'order': order})
-    return render(request, 'orders/order/create.html')
+        return render(request, 'created.html', {'order': order})
+    return render(request, 'create.html')
 
 
 def order_detail(request, order_id):
     order = get_object_or_404(Order, id=order_id)
-    return render(request, 'orders/order/detail.html', {'order': order})
+    return render(request, 'detail.html', {'order': order})
