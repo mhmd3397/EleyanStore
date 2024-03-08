@@ -1,0 +1,15 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="container">
+    <h2 class="my-4">Order Details</h2>
+    <p>User: {{ order.user }}</p>
+    <p>Total amount: {{ order.total_amount }}</p>
+    <p>Notes: {{ order.notes }}</p>
+    <p>Alternative contact: {{ order.alternative_contact }}</p>
+    <p>Communication method: {{ order.communication_method }}</p>
+    <p>Status: {{ order.status }}</p>
+    <p>Created at: {{ order.created_at }}</p>
+    <p>Updated at: {{ order.updated_at }}</p>
+</div>
+{% endblock %}

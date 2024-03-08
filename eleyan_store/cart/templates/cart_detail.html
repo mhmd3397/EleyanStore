@@ -1,0 +1,21 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="container">
+    <h2 class="my-4">Your Cart</h2>
+    {% for item in cart %}
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">{{ item.product.name }}</h5>
+            <p class="card-text">Quantity: {{ item.quantity }}</p>
+            <p class="card-text">Total price: {{ item.total_price }}</p>
+            <a href="{% url 'cart:cart_remove' product_id=item.product.id %}" class="btn btn-danger">Remove</a>
+        </div>
+    </div>
+    {% empty %}
+    <div class="alert alert-info" role="alert">
+        Your cart is empty.
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

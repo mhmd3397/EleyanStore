@@ -1,13 +1,14 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .models import Product
-from django.views import generic
 
 
-class ProductListView(generic.ListView):
-    model = Product
-    template_name = 'product_list.html'
+def product_list(request):
+    products = Product.objects.filter(hide_product=False)
+    return render(request, 'product_list.html', {'products': products})
 
 
-class ProductDetailView(generic.DetailView):
-    model = Product
-    template_name = 'product_detail.html'
+def product_detail(request, pk, slug):
+    product = get_object_or_404(Product, pk=pk, slug=slug)
+    if product.hide_product:
+        return render(request, 'product_not_available.html', {'product': product})
+    return render(request, 'product_detail.html', {'product': product})

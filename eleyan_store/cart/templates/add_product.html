@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="container">
+    <h2 class="my-4">Add Product</h2>
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form.quantity.label_tag }}
+            {{ form.quantity }}
+        </div>
+        {{ form.update }}
+        <button type="submit" class="btn btn-primary">Add to cart</button>
+    </form>
+</div>
+{% endblock %}

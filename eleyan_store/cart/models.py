@@ -6,6 +6,7 @@ User = get_user_model()
 
 
 class CartItem(models.Model):
+    cart = models.ForeignKey('Cart', on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=1)
     added_at = models.DateTimeField(auto_now_add=True)
@@ -18,7 +19,8 @@ class CartItem(models.Model):
 
 
 class Cart(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='cart')  # noqa # OneToOneField is used to create a one-to-one relationship between two models
+    user = models.OneToOneField(
+        User, on_delete=models.CASCADE, related_name='cart')
     items = models.ManyToManyField(Product, through=CartItem)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -31,7 +33,7 @@ class Cart(models.Model):
         return f'Cart of {self.user.username}'
 
     def total_price(self):
-        return sum(item.get_total_price() for item in self.items.all())
+        return sum(item.get_total_price() for item in self.cartitem_set.all())
 
     def total_quantity(self):
-        return sum(item.quantity for item in self.items.all())
+        return sum(item.quantity for item in self.cartitem_set.all())

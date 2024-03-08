@@ -1,1 +1,52 @@
-Eleyan Store
+project name: eleyan_store
+apps names: users, products, orders, cart
+
+
+
+
+Step 1: Project Setup
+Create a new Django project and set up the database.
+
+Step 2: User Registration and Authentication
+Implement views for user registration, login, and logout. Use Django's built-in authentication system.
+
+Step 3: Product Display
+Create models and views for displaying products. Include features for listing all products and displaying detailed information about a single product. Each product should have features and quantities. Implement functionality to hide the product or its quantity.
+
+Step 4: Shopping Cart
+Implement a shopping cart system. Allow users to add products to their cart, view the contents of their cart, and remove products from their cart.
+
+Step 5: Order Processing
+Handle the creation and processing of orders. Once a user has added products to their cart, they can create an order to purchase those products.
+
+Step 6: Sales and Discounts
+Implement a system for applying sales and discounts to products for a limited time.
+
+Step 7: User Account Management
+Implement views for modifying user contact information, changing passwords, and viewing order history.
+
+Step 8: Admin Features
+Implement Admin Views:
+Create views for managing user accounts, confirming/canceling orders, managing product categories, and characteristics. As an admin, you should be able to control everything from the interface, including making a user admin and controlling what they can do.
+
+Step 9: Localization
+Setup Multilingual Support:
+Configure Django settings for internationalization and create translation files. The website should support Arabic, English, and Hebrew.
+
+Step 10: Forms
+Implement Django Forms:
+Use Django forms for user input validation and handling user input.
+
+Step 11: Permissions
+Implement Permissions:
+Ensure that users have appropriate permissions for actions.
+
+Step 12: Styling and Layout
+Design Front-End:
+Use HTML, CSS, and possibly JavaScript for the front-end. Utilize Django templates for dynamic content.
+
+Step 13: Testing
+Write Tests:
+Write tests to ensure your application functions as expected.
+
+This is a broad overview, and each step involves various details. As you proceed, you might need to refer to Django documentation or ask for assistance on specific issues. Let me know when you're ready to start with a particular step!

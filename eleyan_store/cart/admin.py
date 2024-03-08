@@ -9,5 +9,10 @@ class CartItemInline(admin.TabularInline):
 
 @admin.register(Cart)
 class CartAdmin(admin.ModelAdmin):
-    list_display = ['user', 'created_at', 'updated_at']
+    list_display = ['id', 'user', 'created_at', 'updated_at']
     inlines = [CartItemInline]
+
+
+@admin.register(CartItem)
+class CartItemAdmin(admin.ModelAdmin):
+    list_display = ['id', 'product_id', 'quantity', 'added_at']
